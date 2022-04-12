@@ -1,0 +1,48 @@
+.h1 {
+    align-self: center;
+}
+
+#currentDay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lowUV {
+    background-color: #558B2F;
+}
+.modUV {
+    background-color: #F9A825;
+}
+.highUV {
+    background-color: #EF6C00;
+}
+.vhighUV {
+    background-color: #B71C1C;
+}
+.extrUV {
+    background-color: #844aa8;
+}
+#currentDay {
+    background-color: rgb(195, 213, 160);
+    border-radius: 15px;
+}
+
+.card {
+    background-color: rgb(176, 197, 135);
+    text-align: center;
+    padding: 15px;
+    font: 1.09em sans-serif;
+    border-radius: 15px;
+}
+
+#cities {
+    display: flex;
+    flex-direction: column;
+}
+
+.citiesLi {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
