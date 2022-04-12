@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="p-3 mb-2 text-white header" style="background-image: linear-gradient(to right, rgb(123, 104, 211), rgb(8, 6, 121));">
+        <h1 class="text-center">WEATHER-DASHBOARD</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <div class="search-box d-flex flex-column " style="border-bottom: 1px solid black;">
+                    <h3 class="">Search for a City</h3>
+                    <input class="m-1 " type="text" placeholder="City" id="inputSearch">
+                    <div class="btn btn-primary mb-1" id="search-button">Search</div>
+                </div>
+                <div class="cities-container d-flex flex-column" id="search-history">
+                    <div class="d-flex flex-column" id="cities">
+                        
+                    </div>
+                </div>   
+            </div>
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 p-1" id="currentDay" style="border: 1px solid black;">
+                            
+                        </div>
+                        <div class="col-12"><h4>4-Day Forecast:</h4></div>
+                        <div class="col-12 d-flex flex-wrap justify-content-between" id="forecast-cards">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
